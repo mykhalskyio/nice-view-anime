@@ -23,28 +23,28 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(frame_00_delay-0);
-LV_IMG_DECLARE(frame_01_delay-0);
-LV_IMG_DECLARE(frame_02_delay-0);
-LV_IMG_DECLARE(frame_03_delay-0);
-LV_IMG_DECLARE(frame_04_delay-0);
-LV_IMG_DECLARE(frame_05_delay-0);
-LV_IMG_DECLARE(frame_06_delay-0);
-LV_IMG_DECLARE(frame_07_delay-0);
-LV_IMG_DECLARE(frame_08_delay-0);
-LV_IMG_DECLARE(frame_09_delay-0);
+LV_IMG_DECLARE(frame_00_delay);
+LV_IMG_DECLARE(frame_01_delay);
+LV_IMG_DECLARE(frame_02_delay);
+LV_IMG_DECLARE(frame_03_delay);
+LV_IMG_DECLARE(frame_04_delay);
+LV_IMG_DECLARE(frame_05_delay);
+LV_IMG_DECLARE(frame_06_delay);
+LV_IMG_DECLARE(frame_07_delay);
+LV_IMG_DECLARE(frame_08_delay);
+LV_IMG_DECLARE(frame_09_delay);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &frame_00_delay-0,
-    &frame_01_delay-0,
-    &frame_02_delay-0,
-    &frame_03_delay-0,
-    &frame_04_delay-0,
-    &frame_05_delay-0,
-    &frame_06_delay-0,
-    &frame_07_delay-0,
-    &frame_08_delay-0,
-    &frame_09_delay-0,
+    &frame_00_delay,
+    &frame_01_delay,
+    &frame_02_delay,
+    &frame_03_delay,
+    &frame_04_delay,
+    &frame_05_delay,
+    &frame_06_delay,
+    &frame_07_delay,
+    &frame_08_delay,
+    &frame_09_delay,
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
