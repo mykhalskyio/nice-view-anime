@@ -12,11 +12,11 @@
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_00_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_00_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_00_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_00_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_00_DELAY-0 uint8_t frame_00_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_00_DELAY uint8_t frame_00_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -95,21 +95,21 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_00_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_00_delay-0 = {
+const lv_img_dsc_t frame_00_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_00_delay-0_map,
+  .data = frame_00_delay_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_01_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_01_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_01_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_01_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_01_DELAY-0 uint8_t frame_01_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_01_DELAY uint8_t frame_01_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -188,21 +188,21 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_01_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_01_delay-0 = {
+const lv_img_dsc_t frame_01_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_01_delay-0_map,
+  .data = frame_01_delay_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_02_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_02_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_02_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_02_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_02_DELAY-0 uint8_t frame_02_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_02_DELAY uint8_t frame_02_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -281,21 +281,21 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_02_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_02_delay-0 = {
+const lv_img_dsc_t frame_02_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_02_delay-0_map,
+  .data = frame_02_delay_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_03_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_03_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_03_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_03_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_03_DELAY-0 uint8_t frame_03_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_03_DELAY uint8_t frame_03_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -374,22 +374,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_03_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_03_delay-0 = {
+const lv_img_dsc_t frame_03_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_03_delay-0_map,
+  .data = frame_03_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_04_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_04_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_04_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_04_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_04_DELAY-0 uint8_t frame_04_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_04_DELAY uint8_t frame_04_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -468,22 +468,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_04_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_04_delay-0 = {
+const lv_img_dsc_t frame_04_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_04_delay-0_map,
+  .data = frame_04_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_05_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_05_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_05_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_05_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_05_DELAY-0 uint8_t frame_05_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_05_DELAY uint8_t frame_05_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -562,22 +562,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_05_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_05_delay-0 = {
+const lv_img_dsc_t frame_05_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_05_delay-0_map,
+  .data = frame_05_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_06_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_06_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_06_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_06_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_06_DELAY-0 uint8_t frame_06_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_06_DELAY uint8_t frame_06_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -656,22 +656,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_06_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_06_delay-0 = {
+const lv_img_dsc_t frame_06_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_06_delay-0_map,
+  .data = frame_06_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_07_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_07_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_07_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_07_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_07_DELAY-0 uint8_t frame_07_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_07_DELAY uint8_t frame_07_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -750,22 +750,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_07_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_07_delay-0 = {
+const lv_img_dsc_t frame_07_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_07_delay-0_map,
+  .data = frame_07_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_08_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_08_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_08_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_08_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_08_DELAY-0 uint8_t frame_08_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_08_DELAY uint8_t frame_08_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -844,22 +844,22 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_08_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_08_delay-0 = {
+const lv_img_dsc_t frame_08_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_08_delay-0_map,
+  .data = frame_08_delay_map,
 };
 
 
-#ifndef LV_ATTRIBUTE_IMG_FRAME_09_DELAY-0
-#define LV_ATTRIBUTE_IMG_FRAME_09_DELAY-0
+#ifndef LV_ATTRIBUTE_IMG_FRAME_09_DELAY
+#define LV_ATTRIBUTE_IMG_FRAME_09_DELAY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_09_DELAY-0 uint8_t frame_09_delay-0_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_09_DELAY uint8_t frame_09_delay_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -938,12 +938,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME_09_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t frame_09_delay-0 = {
+const lv_img_dsc_t frame_09_delay = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = frame_09_delay-0_map,
+  .data = frame_09_delay_map,
 };
