@@ -23,8 +23,29 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(balloon);
-LV_IMG_DECLARE(mountain);
+LV_IMG_DECLARE(frame_00_delay-0);
+LV_IMG_DECLARE(frame_01_delay-0);
+LV_IMG_DECLARE(frame_02_delay-0);
+LV_IMG_DECLARE(frame_03_delay-0);
+LV_IMG_DECLARE(frame_04_delay-0);
+LV_IMG_DECLARE(frame_05_delay-0);
+LV_IMG_DECLARE(frame_06_delay-0);
+LV_IMG_DECLARE(frame_07_delay-0);
+LV_IMG_DECLARE(frame_08_delay-0);
+LV_IMG_DECLARE(frame_09_delay-0);
+
+const lv_img_dsc_t *anim_imgs[] = {
+    &frame_00_delay-0,
+    &frame_01_delay-0,
+    &frame_02_delay-0,
+    &frame_03_delay-0,
+    &frame_04_delay-0,
+    &frame_05_delay-0,
+    &frame_06_delay-0,
+    &frame_07_delay-0,
+    &frame_08_delay-0,
+    &frame_09_delay-0,
+};
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -114,9 +135,18 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_obj_align(top, LV_ALIGN_TOP_RIGHT, 0, 0);
     lv_canvas_set_buffer(top, widget->cbuf, CANVAS_SIZE, CANVAS_SIZE, LV_IMG_CF_TRUE_COLOR);
 
-    lv_obj_t *art = lv_img_create(widget->obj);
-    bool random = sys_rand32_get() & 1;
-    lv_img_set_src(art, random ? &balloon : &mountain);
+    //lv_obj_t *art = lv_img_create(widget->obj);
+    //bool random = sys_rand32_get() & 1;
+    //lv_img_set_src(art, random ? &balloon : &mountain);
+    //lv_img_set_src(art, &corro01);
+
+    lv_obj_t * art = lv_animimg_create(widget->obj);            //<--
+    lv_obj_center(art);                                         //<--
+    lv_animimg_set_src(art, (const void **) anim_imgs, 10);     //<--
+    lv_animimg_set_duration(art, 1000);                         //<--
+    lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);  //<--
+    lv_animimg_start(art);                                      //<--
+
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, 0, 0);
 
     sys_slist_append(&widgets, &widget->node);
