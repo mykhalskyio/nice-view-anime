@@ -1,3 +1,5 @@
+![anime](./anime.gif)
+
 # nice-view-mod
 A copy of the nice!view shield from the official ZMK firmware as a ZMK module for the purposes of easily customizing.
 As provided, it should function exactly like the current nice!view shield present in the ZMK firmware.
@@ -20,15 +22,15 @@ manifest:
       # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: mykhalskyio                         #new entry
+      url-base: https://github.com/mykhalskyio  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-mod                 #new entry
-      remote: gpeye                       #new entry
+    - name: nice-view-anime               #new entry
+      remote: mykhalskyio                 #new entry
       revision: main                      #new entry
   self:
     path: config
